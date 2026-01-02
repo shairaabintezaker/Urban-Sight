@@ -56,3 +56,28 @@ body {
   );
   transform: rotate(-6deg);
 }
+.feedItem {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+.dotS {
+  width: 10px;
+  height: 10px;
+  border-radius: 99px;
+  margin-top: 6px;
+  background: rgba(122, 85, 214, 0.45);
+}
+.dotW {
+  background: rgba(208, 85, 149, 0.55);
+}
+.dotO {
+  background: rgba(42, 165, 106, 0.55);
+}
+.feedItem b {
+  display: block;
+}
+.feedItem small {
+  color: var(--mut);
+  font-weight: 700;
+}
