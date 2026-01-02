@@ -1,0 +1,43 @@
+<!DOCTYPE html><html lang="en">
+<head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Leaderboard • Frontline</title>
+<link rel="stylesheet" href="base.css"><link rel="stylesheet" href="leaderboard.css">
+</head>
+<body>
+<header class="top"><div class="wrap bar">
+  <div class="brand"><i></i>Frontline</div>
+  <nav class="nav">
+    <a href="home.html">Home</a><a href="services.html">Services</a>
+    <a href="rewards.html">Rewards</a><a class="on" href="leaderboard.html">Leaderboard</a>
+  </nav>
+</div></header>
+<main class="wrap main">
+  <div class="pagehead">
+    <div>
+      <div class="breadcrumb"><b>Services</b> / Leaderboard</div>
+      <div class="title">Leaderboard</div>
+      <div class="sub">Top contributors based on points & activities.</div>
+      <div class="filters">
+        <a class="on" href="#">All Time</a>
+      </div>
+    </div>
+    <span class="pill p-info" id="yourRank">Your Rank: —</span>
+  </div>
+  <section class="card">
+    <h2>🏆 Podium</h2>
+    <div class="podium" id="podiumBox">
+      <div class="box"><span class="rank">#1</span><h3>—</h3><p>— points</p></div>
+      <div class="box"><span class="rank">#2</span><h3>—</h3><p>— points</p></div>
+      <div class="box"><span class="rank">#3</span><h3>—</h3><p>— points</p></div>
+    </div>
+    <table class="table">
+      <tr><th>Rank</th><th>Name</th><th>Username</th><th>Points</th></tr>
+      <tbody id="lbBody">
+        <tr><td colspan="4">Loading...</td></tr>
+      </tbody>
+    </table>
+  </section>
+</main>
+<footer class="foot"><div class="wrap fbar"><span>© 2025 Frontline</span><span>Leaderboard</span></div></footer>
+<script src="leaderboard.js"></script>
+</body></html>
